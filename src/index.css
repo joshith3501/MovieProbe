@@ -1,0 +1,23 @@
+:root {
+  font-family:'Roboto Slab', sans-serif;
+}
+
+body {
+  background-color:hsl(0 0% 9% / 0.9);
+  color:rgba(255, 255, 255, 0.87);
+  backdrop-filter: blur(10rem);
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
